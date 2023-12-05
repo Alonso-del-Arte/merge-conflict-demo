@@ -16,3 +16,12 @@ circumference formula like this:
 ```
         this.circumference = 2 * Math.PI + this.radius;
 ```
+
+Just a little bit later, Bob also corrects the circumference formula, but he 
+neglects to delete the To Do comment.
+
+```
+        this.circumference = 2.0 * Math.PI * this.radius
+```
+
+If Alice's edits are merged first, Bob's edits can't be merged automatically.
